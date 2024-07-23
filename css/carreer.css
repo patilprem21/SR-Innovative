@@ -1,0 +1,738 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  margin: 0 30px;
+
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+  height: 500px;
+  filter: brightness(40%) contrast(100%);
+}
+
+
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+}
+
+.text-overlay h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.text-overlay p {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+
+
+
+
+
+
+.hero .btn {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+
+  border-radius: 10px;
+}
+
+.join-us {
+  text-align: center;
+  padding: 20px;
+}
+
+.job-openings {
+  text-align: center;
+  padding: 5px;
+
+  margin-bottom: 0.5%;
+}
+
+.job-openings .content {
+  max-width: 100%;
+  margin: 0 auto;
+
+
+}
+
+.job-openings .btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+
+  border-radius: 10px;
+
+  width: 16%;
+
+}
+
+
+.job-openings p {
+  font-size: larger;
+  font-weight: bold;
+}
+
+#job-openings .content form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#job-openings .content form div {
+  margin-bottom: 10px;
+
+
+}
+
+#job-openings .content form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#job-openings .content form input[type="text"],
+#job-openings .content form input[type="email"],
+#job-openings .content form input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+#job-openings .content form input[type="file"]::-webkit-file-upload-button {
+  color: #000000;
+  background-color: #d3d4d4;
+  font-size: 12px;
+  padding: 5px 10px; 
+  border: 1px solid #000000; 
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+#job-openings .content form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 320px) {
+
+  .hero {
+    margin: 5px;
+  }
+
+  .join-us h2 {
+    text-align: center;
+
+  }
+
+
+
+  .join-us {
+    text-align: justify;
+    padding: 20px;
+  }
+
+
+  .image-container img {
+    height: 300px;
+  }
+
+  .text-overlay h1 {
+    font-size: 1.5em;
+    color: #e53935;
+  }
+
+  .text-overlay p {
+    font-size: 1em;
+    color: rgb(226, 226, 226);
+  }
+
+  .hero .btn {
+    bottom: 10px;
+    padding: 5px 10px;
+    font-size: 0.8em;
+  }
+
+  .job-openings .btn {
+    width: 90%;
+  }
+
+
+}
+
+
+/* For screens between 321px and 375px */
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+
+  .hero {
+    margin: 5px;
+  }
+
+  .join-us h2 {
+    text-align: center;
+    margin-bottom: 10px;
+
+  }
+
+
+
+  .join-us {
+    text-align: justify;
+    padding: 20px;
+  }
+
+
+  .image-container img {
+    height: 300px;
+  }
+
+  .text-overlay h1 {
+    font-size: 1.5em;
+    color: #e53935;
+  }
+
+  .text-overlay p {
+    font-size: 1em;
+    color: rgb(226, 226, 226);
+  }
+
+  .hero .btn {
+    bottom: 20px;
+    padding: 5px 10px;
+    font-size: 0.9em;
+  }
+
+  .job-openings .btn {
+    width: 90%;
+  }
+
+}
+
+
+@media only screen and (min-width: 376px) and (max-width: 400px) {
+
+  .hero {
+    margin: 5px;
+  }
+
+  .join-us h2 {
+    text-align: center;
+    margin-bottom: 10px;
+
+  }
+
+
+
+  .join-us {
+    text-align: justify;
+    padding: 20px;
+  }
+
+
+  .image-container img {
+    height: 300px;
+  }
+
+  .text-overlay h1 {
+    font-size: 1.5em;
+    color: #e53935;
+  }
+
+  .text-overlay p {
+    font-size: 1em;
+    color: rgb(226, 226, 226);
+  }
+
+  .hero .btn {
+    bottom: 20px;
+    padding: 5px 10px;
+    font-size: 0.9em;
+  }
+
+  .job-openings .btn {
+    width: 90%;
+  }
+
+
+}
+
+
+/* For screens between 401px and 425px */
+@media only screen and (min-width: 401px) and (max-width: 425px) {
+
+  .hero {
+    margin: 5px;
+  }
+
+  .join-us h2 {
+    text-align: center;
+    margin-bottom: 10px;
+
+  }
+
+
+
+  .join-us {
+    text-align: justify;
+    padding: 20px;
+  }
+
+
+  .image-container img {
+    height: 300px;
+  }
+
+  .text-overlay h1 {
+    font-size: 1.5em;
+    color: #e53935;
+  }
+
+  .text-overlay p {
+    font-size: 1em;
+    color: rgb(226, 226, 226);
+  }
+
+  .hero .btn {
+    bottom: 20px;
+    padding: 5px 10px;
+    font-size: 1em;
+  }
+
+  .job-openings .btn {
+    width: 90%;
+  }
+}
+
+
+
+/* For screens between 426px and 475px */
+@media only screen and (min-width: 426px) and (max-width: 475px) {
+
+  .hero {
+    margin: 5px;
+  }
+
+  .join-us h2 {
+    text-align: center;
+    margin-bottom: 10px;
+
+  }
+
+  .join-us p {
+    text-align: justify;
+    padding: 10px;
+  }
+
+  .join-us {
+    text-align: justify;
+    padding: 20px;
+  }
+
+
+
+  .image-container img {
+    height: 300px;
+  }
+
+  .text-overlay h1 {
+    font-size: 1.5em;
+    color: #e53935;
+  }
+
+  .text-overlay p {
+    font-size: 1em;
+    color: rgb(226, 226, 226);
+  }
+
+  .hero .btn {
+    bottom: 20px;
+    padding: 5px 10px;
+    font-size: 0.9em;
+  }
+
+  .job-openings .btn {
+    width: 90%;
+  }
+}
+
+
+
+/* For screens between 476px and 768px */
+@media only screen and (min-width: 476px) and (max-width: 768px) {
+
+  .hero {
+    margin: 5px;
+  }
+
+  .join-us h2 {
+    text-align: center;
+    margin-bottom: 10px;
+
+  }
+
+  .join-us p {
+    text-align: justify;
+    padding: 10px;
+  }
+
+  .join-us {
+    text-align: justify;
+    padding: 20px;
+  }
+
+
+
+
+  .image-container img {
+    height: 300px;
+  }
+
+  .text-overlay h1 {
+    font-size: 1.5em;
+    color: #e53935;
+  }
+
+  .text-overlay p {
+    font-size: 1em;
+    color: rgb(226, 226, 226);
+  }
+
+  .hero .btn {
+    bottom: 20px;
+    padding: 5px 10px;
+    font-size: 1em;
+  }
+
+  .job-openings .btn {
+    width: 90%;
+  }
+}
+
+
+
+/* For screens between 769px and 800px */
+@media only screen and (min-width: 769px) and (max-width: 800px) {
+
+  .hero {
+    margin: 5px;
+  }
+
+  .join-us h2 {
+    text-align: center;
+    margin-bottom: 10px;
+
+  }
+
+  .join-us p {
+    text-align: justify;
+    padding: 10px;
+  }
+
+  .join-us {
+    text-align: justify;
+    padding: 20px;
+  }
+
+
+
+
+  .image-container img {
+    height: 300px;
+  }
+
+  .text-overlay h1 {
+    font-size: 1.5em;
+    color: #e53935;
+  }
+
+  .text-overlay p {
+    font-size: 1em;
+    color: rgb(226, 226, 226);
+  }
+
+  .hero .btn {
+    bottom: 20px;
+    padding: 5px 10px;
+    font-size: 1em;
+  }
+
+  .job-openings .btn {
+    width: 90%;
+  }
+}
+
+
+/* For screens between 801px and 1024px */
+@media only screen and (min-width: 801px) and (max-width: 1024px) {
+
+  .hero {
+    margin: 5px;
+  }
+
+  .join-us h2 {
+    text-align: center;
+    margin-bottom: 10px;
+
+  }
+
+  .join-us p {
+    text-align: justify;
+    padding: 10px;
+  }
+
+  .join-us {
+    text-align: justify;
+    padding: 20px;
+  }
+
+
+
+
+  .image-container img {
+    height: 300px;
+  }
+
+  .text-overlay h1 {
+    font-size: 1.5em;
+    color: #e53935;
+  }
+
+  .text-overlay p {
+    font-size: 1em;
+    color: rgb(226, 226, 226);
+  }
+
+  .hero .btn {
+    bottom: 20px;
+    padding: 5px 10px;
+    font-size: 1em;
+  }
+
+  .job-openings .btn {
+    width: 50%;
+  }
+
+  #job-openings .content form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+}
+
+
+
+
+/* For screens between 1025px and 1440px */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+
+  .hero {
+    margin: 5px;
+  }
+
+  .join-us h2 {
+
+    font-size: 25px;
+
+  }
+
+  .join-us p {
+    text-align: justify;
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 18px;
+  }
+
+}
+
+
+/* For screens between 1441px and 2560px 
+@media only screen and (min-width: 1441px) and (max-width: 2560px) {
+
+
+  .hero {
+    margin: 5px;
+  }
+
+  .join-us h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 45px;
+
+
+  }
+
+  .join-us p {
+    text-align: justify;
+    padding: 10px;
+    font-size: 39px;
+  }
+
+  .join-us {
+    text-align: justify;
+    padding: 20px;
+  }
+
+
+
+
+  .image-container img {
+    height: 900px;
+  }
+
+  .text-overlay h1 {
+    font-size: 4.5em;
+    color: #e53935;
+  }
+
+  .text-overlay p {
+    font-size: 2.5em;
+    color: rgb(226, 226, 226);
+  }
+
+  .hero .btn {
+    bottom: 150px;
+    padding: 20px 100px;
+    font-size: 2.5em;
+  }
+
+  .job-openings .btn {
+    display: block;
+    margin: 20px auto;
+    padding: 20px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+  font-size: 40px;
+    border-radius: 10px;
+    width: 30%;
+  }
+
+  #job-openings .content form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+    font-size: 40px;
+
+
+  }
+
+
+  .content h2{
+    font-size: 45px;
+  }
+
+  .content p{
+    font-size: 45px;
+
+  }
+
+  .content form{
+    font-size: 40px;
+  }
+
+  
+
+  #job-openings .content form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #job-openings .content form input[type="text"],
+  #job-openings .content form input[type="email"],
+  #job-openings .content form input[type="file"] {
+    width: 150%;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+
+
+
+  #job-openings .content form input[type="file"]::-webkit-file-upload-button {
+    color: #000000;
+    background-color: #e5e9e9;
+    font-size: 30px;
+    padding: 15px 30px; 
+    border: 1px solid #000000; 
+    border-radius: 5px;
+    cursor: pointer;
+  
+  }
+
+  #job-openings .content form input[type="file"] {
+    font-size: 28px; 
+  }
+
+
+  #job-openings .content form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+}
+
+  */
+
+
+
+
+
+
+
+
+
+
+
